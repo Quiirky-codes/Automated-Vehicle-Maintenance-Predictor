@@ -20,17 +20,17 @@ were found online and are included in the repository as .csv files.
 # Algorithms used to train the model
 I. XGBOOST:
    Overview
-  XGBoost is an ensemble learning technique that combines the predictions of multiple decision tree models to create a robust and accurate predictive model.
-  In the context of our Automated Vehicle Maintenance Predictor project, XGBoost can be employed to improve the accuracy of maintenance need predictions.
-  Handle both regression and classification tasks: XGBoost is versatile and can be used to predict continuous variables (e.g., remaining engine life) or classify maintenance needs (e.g., urgent, 
-  routine, or no maintenance needed).
-  Capture complex relationships: XGBoost excels at capturing intricate patterns and non-linear relationships in the data, which can be crucial when predicting vehicle maintenance.
-  Handle missing data: XGBoost has built-in mechanisms to handle missing data, which is common in real-world datasets.
-  Control overfitting: Through hyperparameter tuning, you can control the depth of trees and the number of trees in the ensemble to prevent overfitting and achieve a well-generalized model.
-  Interpretability: XGBoost provides feature importance scores, allowing you to understand which factors are most influential in predicting maintenance needs. 
+   XGBoost is an ensemble learning technique that combines the predictions of multiple decision tree models to create a robust and accurate predictive model.
+   In the context of our Automated Vehicle Maintenance Predictor project, XGBoost can be employed to improve the accuracy of maintenance need predictions.
+   Handle both regression and classification tasks: XGBoost is versatile and can be used to predict continuous variables (e.g., remaining engine life) or classify maintenance needs (e.g., urgent, 
+   routine, or no maintenance needed).
+   Capture complex relationships: XGBoost excels at capturing intricate patterns and non-linear relationships in the data, which can be crucial when predicting vehicle maintenance.
+   Handle missing data: XGBoost has built-in mechanisms to handle missing data, which is common in real-world datasets.
+   Control overfitting: Through hyperparameter tuning, you can control the depth of trees and the number of trees in the ensemble to prevent overfitting and achieve a well-generalized model.
+   Interpretability: XGBoost provides feature importance scores, allowing you to understand which factors are most influential in predicting maintenance needs. 
 
-  Integration
-  To integrate XGBoost into our project:
+  Integration:
+  
   1. Data Preprocessing: Prepare historical vehicle data, clean it, and preprocess it to create meaningful features for the model. 
   
   2. Handle missing values and encode categorical variables if necessary.
@@ -39,8 +39,8 @@ I. XGBOOST:
   
   4. XGBoost Model: Implement the XGBoost algorithm by creating an instance of the XGBoost regressor or classifier, depending on your specific use case. You can use the xgboost library in Python.
   
-  5. Hyperparameter Tuning: Tune the hyperparameters of the XGBoost model to achieve the best performance. This might involve adjusting parameters such as learning rate, maximum depth of trees, and 
-     the number of estimators.
+  5. Hyperparameter Tuning: Tune the hyperparameters of the XGBoost model to achieve the best performance. This might involve adjusting parameters such as learning rate, maximum depth of trees, 
+     and the number of estimators.
   6. Training: Fit the XGBoost model to the training data.
      
   7. Prediction: Use the trained model to make predictions on the testing data or real-time data, providing insights into when and what type of maintenance is needed.
@@ -54,7 +54,9 @@ II. SVM for Predictive Maintenance:
     Overview
     Support Vector Machines (SVM) are a class of supervised machine learning algorithms that excel in classifying data into two or more categories.
     In the context of the Automated Vehicle Maintenance Predictor project, SVM can be employed to classify maintenance needs based on historical data.
+    
     Integration:
+    
   1. Data Preprocessing: Prepare historical vehicle data by cleaning and preprocessing it.
      Ensure that the data is labeled with maintenance categories (e.g., urgent, routine, or no maintenance needed).
      
@@ -66,7 +68,7 @@ II. SVM for Predictive Maintenance:
       linear, polynomial, or radial basis function).
 
   5. Hyperparameter Tuning: Tune the SVM hyperparameters such as the regularization parameter (C), kernel parameters, and others to optimize model performance.
-   This may involve cross-validation.
+     This may involve cross-validation.
    
   6. Training: Fit the SVM model to train the data.
    
@@ -80,7 +82,9 @@ III. K-Means ALGORITHM:
      Overview
      K-Means clustering is an unsupervised learning algorithm that groups similar data points into clusters.
      In the context of the Automated Vehicle Maintenance Predictor project, K-Means can be applied to identify distinct clusters of vehicles with similar maintenance patterns.
+     
      Integration:
+     
    1. Data Preprocessing: Prepare historical vehicle data by cleaning and preprocessing it. Ensure that the data contains relevant features for maintenance pattern identification.
    
    2. Feature Selection/Engineering: Select appropriate features or engineer new ones that capture the essence of maintenance patterns.
