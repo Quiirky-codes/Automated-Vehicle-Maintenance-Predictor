@@ -55,7 +55,7 @@ II. SVM for Predictive Maintenance:
     Support Vector Machines (SVM) are a class of supervised machine learning algorithms that excel in classifying data into two or more categories.
     In the context of the Automated Vehicle Maintenance Predictor project, SVM can be employed to classify maintenance needs based on historical data.
     
-    Integration:
+  Integration: 
     
   1. Data Preprocessing: Prepare historical vehicle data by cleaning and preprocessing it.
      Ensure that the data is labeled with maintenance categories (e.g., urgent, routine, or no maintenance needed).
@@ -83,7 +83,7 @@ III. K-Means ALGORITHM:
      K-Means clustering is an unsupervised learning algorithm that groups similar data points into clusters.
      In the context of the Automated Vehicle Maintenance Predictor project, K-Means can be applied to identify distinct clusters of vehicles with similar maintenance patterns.
      
-     Integration:
+   Integration:
      
    1. Data Preprocessing: Prepare historical vehicle data by cleaning and preprocessing it. Ensure that the data contains relevant features for maintenance pattern identification.
    
