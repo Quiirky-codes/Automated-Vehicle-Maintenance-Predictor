@@ -19,7 +19,9 @@ were found online and are included in the repository as .csv files.
 
 # Algorithms used to train the model
 I. XGBOOST:
+
    Overview
+   
    XGBoost is an ensemble learning technique that combines the predictions of multiple decision tree models to create a robust and accurate predictive model.
    In the context of our Automated Vehicle Maintenance Predictor project, XGBoost can be employed to improve the accuracy of maintenance need predictions.
    Handle both regression and classification tasks: XGBoost is versatile and can be used to predict continuous variables (e.g., remaining engine life) or classify maintenance needs (e.g., urgent, 
@@ -51,9 +53,11 @@ I. XGBOOST:
       actions.
 
 II. SVM for Predictive Maintenance:
-    Overview
-    Support Vector Machines (SVM) are a class of supervised machine learning algorithms that excel in classifying data into two or more categories.
-    In the context of the Automated Vehicle Maintenance Predictor project, SVM can be employed to classify maintenance needs based on historical data.
+
+   Overview
+    
+   Support Vector Machines (SVM) are a class of supervised machine learning algorithms that excel in classifying data into two or more categories.
+   In the context of the Automated Vehicle Maintenance Predictor project, SVM can be employed to classify maintenance needs based on historical data.
     
   Integration: 
     
@@ -79,9 +83,11 @@ II. SVM for Predictive Maintenance:
   9. Interpretation: Analyze the support vectors and decision boundaries to gain insights into how the SVM model is making predictions.
 
 III. K-Means ALGORITHM:
-     Overview
-     K-Means clustering is an unsupervised learning algorithm that groups similar data points into clusters.
-     In the context of the Automated Vehicle Maintenance Predictor project, K-Means can be applied to identify distinct clusters of vehicles with similar maintenance patterns.
+
+   Overview
+     
+   K-Means clustering is an unsupervised learning algorithm that groups similar data points into clusters.
+   In the context of the Automated Vehicle Maintenance Predictor project, K-Means can be applied to identify distinct clusters of vehicles with similar maintenance patterns.
      
    Integration:
      
@@ -105,6 +111,9 @@ III. K-Means ALGORITHM:
    9. Anomaly Detection: Identify potential outliers or vehicles that do not belong to any cluster as they may have unique maintenance requirements.
 
 IV. Random Forest Algorithm:
+
+   Overview
+   
    Random Forest is a versatile and powerful machine learning algorithm that has been used in the Automated Vehicle Maintenance Predictor project to enhance predictive modeling and improve the 
    accuracy of maintenance predictions.
    Random Forest is an ensemble learning technique that combines the predictions of multiple decision trees to create a robust and accurate predictive model. In the context of your Automated 
