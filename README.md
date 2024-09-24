@@ -154,7 +154,12 @@ INTEGRATION:
 
 By incorporating the Random Forest algorithm into our project, we have taken advantage of its capabilities to create a highly accurate maintenance prediction system. This system will assist vehicle owners and maintenance professionals in making informed decisions about when and what type of maintenance is needed, ultimately leading to improved vehicle reliability and cost savings.
 
+# Collaborators 
 
+* [Amith M Jain](https://github.com/Quiirky-codes)
+* [Anand Annapur G V](https://github.com/AnandAnnapur)
+* [Dheeraj N](https://github.com/Dheeraj44444)
+* [Shesha Simha](https://github.com/shesha03)
 
 
 
