@@ -160,6 +160,7 @@ By incorporating the Random Forest algorithm into our project, we have taken adv
 * [Anand Annapur G V](https://github.com/AnandAnnapur)
 * [Dheeraj N](https://github.com/Dheeraj44444)
 * [Shesha Simha](https://github.com/shesha03)
+* [Srushti Mahesh](https://github.com/srushti2432)
 
 
 
